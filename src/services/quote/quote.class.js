@@ -6,6 +6,7 @@ export class QuoteService extends MongoDBService {}
 export const getOptions = (app) => {
   return {
     paginate: app.get('paginate'),
-    Model: app.get('mongodbClient').then((db) => db.collection('quote'))
+    Model: app.get('mongodbClient').then((db) => db.collection('quote')),
+    multi: ['create']
   }
 }
