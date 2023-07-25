@@ -1,6 +1,8 @@
 # quotes-api
 
-> Quotes api
+This repository contains the code for a simple API that returns a quote and the name of its author. The API was built using Feathers.js, Heroku, and MongoDB.
+
+Visit [Postman](https://documenter.getpostman.com/view/27425174/2s946o2obc) for full documentation. 
 
 ## About
 
